@@ -60,9 +60,6 @@ while True:
 		elif phone[3:6] in op_list[7]:
 			op = 'Платные Номера если позвонить спишуться деньги!'
 
-
-
-		print(op[0:3])
 		info_table.field_names = [colors.HEADER+colors.BOLD+'Информация'+colors.ENDC]
 		if op[0:3]=='Пла':
 			info_table.add_row([f'{op}'])
