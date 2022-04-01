@@ -32,6 +32,7 @@ op_list = [['068','067','096','097','098'], ['050','066','095','099'], ['063','0
 clear()
 
 while True:
+	info_table.clear()
 	phone = input(colors.OKCYAN+colors.BOLD +f'Привет это распознатель кодов операторов напиши свой номер: '+colors.ENDC)
 	if phone[0:1]!='+':
 		clear()
