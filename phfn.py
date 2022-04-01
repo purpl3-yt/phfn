@@ -74,4 +74,4 @@ while True:
 {info_table}
 
 		''')
-		break
+		
